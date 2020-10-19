@@ -10,30 +10,30 @@
     </head>
 
     <body>
-        <div class="d-flex flex-row align-items-center top-pane">
+        <div class="d-flex flex-row align-items-center top-pane pt-2" id="Home">
             <img class="logo" src="images/AGALogo.png" alt="American Go Association Logo">
-            <!-- MAKE "GO" RED -->
-            <h1 class="text-dark display-4">American Go Association</h1>
+            <!-- MAKE HEADER RESPONSIVE -->
+            <h1>American <span style="color: #C80000">Go</span> Association</h1>
         </div>
         <nav class="navbar navbar-expand-sm navbar-dark sticky-top" style="background-color: #C80000;">
             <div class="container-fluid">
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav mr-auto">
-                        <!-- FIX MARGIN FOR SMALLER SCREENS -->
-                        <li class="nav-item"> 
-                            <a class="nav-link" href="#">AGA Home</a>
+                        <!-- FIX MARGIN TO ALIGN W EVENTS FOR SMALLER SCREENS -->
+                        <li class="nav-item active"> 
+                            <a class="nav-link" href="">AGA Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">What is Go?</a>
+                            <a class="nav-link" href="">What is Go?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Play Go</a>
+                            <a class="nav-link" href="">Play Go</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Outreach</a>
+                            <a class="nav-link" href="">Outreach</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Donate</a>
+                            <a class="nav-link" href="">Donate</a>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
@@ -41,6 +41,108 @@
                     </form>
                 </div>
             </div>
-        </nav>    
+        </nav>
+        <div class="container-fluid posts">
+            <div class="row pt-lg-5 pt-sm-4 pt-3 px-lg-5 px-md-0 justify-content-center">
+                <div class="col-md-8 pb-5 events">
+                    <h4>EVENTS</h4>
+                    <div class="container-fluid section-marker"></div>
+                    <div class="card event-card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title event-title">Registration Open for 2020 Youth League!</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">10/13/2020</h6>
+                            <p class="card-text">Registration for the annual American Go Honor Society Youth League is now open. 
+                                We welcome all players who are citizens of the US, Canada, or Mexico, and under...</p>
+                            <div class="d-flex flex-row align-items-center justify-content-center">
+                                <img class="event-img" src="images/Board.png" alt="Player's hand hovering over a go board">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card event-card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title event-title">Redmond on AlphaGo vs AlphaGo Game 44 this Sunday</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">9/25/2020</h6>
+                            <p class="card-text">Tune in to the AGA’s Twitch channel at 8p Sunday night for Michael Redmond 9Ps live 
+                                commentary on AlphaGo vs AlphaGo game 44. “It’s going to be wild,” says...</p>
+                        </div>
+                        <div class="d-flex flex-row align-items-center justify-content-center">
+                            <img class="event-img" src="images/AlphaGo.jpg" alt="illustration of Go board split in half">
+                        </div>
+                    </div>
+                    <div class="card event-card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title event-title">e-Go Congress Blitz Tournament begins today</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">08/03/2020</h6>
+                            <p class="card-text">“I’m looking forward to seeing some spirited Go this week,” says TD Jon Boley of the 
+                                start of the e-GoCongress answer to any players missing the Go Congress’ beloved Lightning Tournament...</p>
+                        </div>
+                    </div>
+                    <div class="card event-card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title event-title"></h5>
+                            <h6 class="card-subtitle mb-2 text-muted"></h6>
+                            <p class="card-text">.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pb-5 news">
+                    <h4>NEWS</h4>
+                    <div class="container-fluid section-marker"></div>
+                    <div class="card news-card-top">
+                        <img class="card-img-top news-img-top" src="images/KeJie.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="card-title news-title">Womxn’s Online Go Club holds first meeting</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">Samantha Fede</h6>
+                            <p class="card-text news-text">“We’re very excited to announce the formation of the Womxn’s Online Go Club, a women-led 
+                                chapter of the AGA,” says founder Samantha Fede. “Our goal is to...</p>
+                        </div>
+                    </div>
+                    <div class="card news-card">
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-left">
+                                <img class="news-img" src="images/IlyaShikshin.jpeg" alt="Ilya Shikshin playing go">
+                                <div class="col">
+                                    <h6 class="news-title">Ilya Shikshin 3P wins 5th European Pro Championship</h6>
+                                    <p class="card-text news-text">Martin Stiassny</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card news-card">
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-left">
+                                <img class="news-img" src="images/IlyaShikshin.jpeg" alt="Ilya Shikshin playing go">
+                                <div class="col">
+                                    <h6 class="news-title">Ilya Shikshin 3P wins 5th European Pro Championship</h6>
+                                    <p class="card-text news-text">Martin Stiassny</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card news-card">
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-left">
+                                <img class="news-img" src="images/IlyaShikshin.jpeg" alt="Ilya Shikshin playing go">
+                                <div class="col">
+                                    <h6 class="news-title">Ilya Shikshin 3P wins 5th European Pro Championship</h6>
+                                    <p class="card-text news-text">Martin Stiassny</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card news-card">
+                        <div class="card-body">
+                            <div class="d-flex flex-row align-items-left">
+                                <img class="news-img" src="images/IlyaShikshin.jpeg" alt="Ilya Shikshin playing go">
+                                <div class="col">
+                                    <h6 class="news-title">Ilya Shikshin 3P wins 5th European Pro Championship</h6>
+                                    <p class="card-text news-text">Martin Stiassny</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

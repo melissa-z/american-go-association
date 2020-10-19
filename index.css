@@ -31,3 +31,52 @@ body {
     width: 5em;
     height: 5em;
 }
+
+h4 {
+    color: #C80000;
+    font-weight: bold;
+}
+
+.event-title, .news-title {
+    font-weight: bold;
+}
+
+.event-img {
+    object-fit: cover;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 10em;
+}
+
+.news-card {
+    height: 8em;
+}
+
+.news-img {
+    width: 6em; 
+    height: 6em;
+    object-fit: cover;
+    margin-right: 3%;
+}
+
+.news-author {
+    margin: 0 0 0 0 
+}
+
+.news-text, .news-author {
+    font-size: 0.75em
+}
+
+.news-img-top {
+    object-fit: cover;
+    max-height: 10em;
+}
+
+.section-marker {
+    background-color: #C80000;
+    height: 0.5em;
+}
+
+.nav-item {
+    font-weight: bold;
+}
