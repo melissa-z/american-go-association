@@ -12,7 +12,6 @@
     <body>
         <div class="d-flex flex-row align-items-center top-pane pt-2" id="Home">
             <img class="logo" src="images/AGALogo.png" alt="American Go Association Logo">
-            <!-- MAKE HEADER RESPONSIVE -->
             <h1>American <span style="color: #C80000">Go</span> Association</h1>
         </div>
         <nav class="navbar navbar-expand-sm navbar-dark sticky-top" style="background-color: #C80000;">
@@ -38,6 +37,9 @@
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <!-- <div class="input-group-text bg-transparent border-right-0">
+                            <i class="fa fa-search"></i>
+                        </div> -->
                     </form>
                 </div>
             </div>
@@ -45,7 +47,7 @@
         <div class="container-fluid posts">
             <div class="row pt-lg-5 pt-sm-4 pt-3 px-lg-5 px-md-0 justify-content-center">
                 <div class="col-md-8 pb-5 events">
-                    <h4>EVENTS</h4>
+                    <h4 class="section-header">EVENTS</h4>
                     <div class="container-fluid section-marker"></div>
                     <div class="card event-card mb-4">
                         <div class="card-body">
@@ -54,7 +56,7 @@
                             <p class="card-text">Registration for the annual American Go Honor Society Youth League is now open. 
                                 We welcome all players who are citizens of the US, Canada, or Mexico, and under...</p>
                             <div class="d-flex flex-row align-items-center justify-content-center">
-                                <img class="event-img" src="images/Board.png" alt="Player's hand hovering over a go board">
+                                <img class="event-img" src="images/GoGame.png" alt="Player's hand hovering over a go board">
                             </div>
                         </div>
                     </div>
@@ -76,17 +78,29 @@
                             <p class="card-text">“I’m looking forward to seeing some spirited Go this week,” says TD Jon Boley of the 
                                 start of the e-GoCongress answer to any players missing the Go Congress’ beloved Lightning Tournament...</p>
                         </div>
+                        <div class="d-flex flex-row align-items-center justify-content-center">
+                            <img class="event-img" src="images/GoTournament.jpg" alt="a go tournament in progress">
+                        </div>
                     </div>
-                    <div class="card event-card mb-4">
+                    <!-- <div class="card event-card mb-4">
                         <div class="card-body">
                             <h5 class="card-title event-title"></h5>
                             <h6 class="card-subtitle mb-2 text-muted"></h6>
                             <p class="card-text">.</p>
                         </div>
+                    </div> -->
+                    <div class="card mb-4 more-events">
+                        <div class="card-body more-events-button">
+                            <div class="card-title d-flex flex-row align-items-center justify-content-center">
+                                <h4 style="font-size: 1.25em">See more events</h4>
+                                <img src="images/RightArrow.png" alt="right arrow" style="max-width: 30px; margin-bottom: 0.4em"/>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
                 <div class="col-md-4 pb-5 news">
-                    <h4>NEWS</h4>
+                    <h4 class="section-header">NEWS</h4>
                     <div class="container-fluid section-marker"></div>
                     <div class="card news-card-top">
                         <img class="card-img-top news-img-top" src="images/KeJie.jpg" alt="Card image cap">
@@ -138,6 +152,14 @@
                                     <h6 class="news-title">Ilya Shikshin 3P wins 5th European Pro Championship</h6>
                                     <p class="card-text news-text">Martin Stiassny</p>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card more-news">
+                        <div class="card-body more-news-button">
+                            <div class="card-title d-flex flex-row align-items-center justify-content-center">
+                                <h4 style="font-size: 1.25em">See more news</h4>
+                                <img src="images/RightArrow.png" alt="right arrow" style="max-width: 30px; margin-bottom: 0.4em"/>
                             </div>
                         </div>
                     </div>
