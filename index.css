@@ -37,6 +37,16 @@ h1 {
     color: #343a40;
 } 
 
+.news-img {
+    object-fit: cover;
+    width: 5em;
+    height: 5em;
+}
+
+.event-body {
+    padding: 1.25rem 0.25rem 1.25rem 0.25rem;
+}
+
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {
   h1 {font-size: 2.5rem;} 
@@ -50,6 +60,7 @@ h1 {
   .logo {width: 6.5em; height: 6.5em;}
   .navbar {padding-left: 2em}
   .nav-item {margin-right: 0.5em;}
+  .news-img {width: 4em; height: 4em;}
 }
  
 /* Large devices (desktops, 992px and up) */
@@ -58,17 +69,21 @@ h1 {
   .logo {width: 7em; height: 7em;}
   .navbar {padding-left: 3em}
   .nav-item {margin-right: 1em;}
+  .news-img {width: 5.5em; height: 5.5em;}
+  .event-body {padding: 1.25rem;}
 }
 
 .event-title, .news-title {
     font-weight: bold;
 }
 
+.news-title, .card-text {
+    font-size: 0.9rem;
+}
+
 .event-img {
     object-fit: cover;
-    min-width: 100%;
-    max-width: 100%;
-    max-height: 10em;
+    max-height: 11em;
 }
 
 .list-group-item {
@@ -81,13 +96,6 @@ h1 {
 
 .news-card {
     height: 8em;
-}
-
-.news-img {
-    width: 5.5em; 
-    height: 5.5em;
-    object-fit: cover;
-    margin-right: 3%;
 }
 
 .news-author {
