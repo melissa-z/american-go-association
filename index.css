@@ -9,9 +9,8 @@
 }
 
 .top-pane {
-    background-image: url('images/GoBoard.png');
+    background-image: url('images/GoBoard2.png');
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -24,7 +23,7 @@
 }
 
 body {
-    font-family: "Roboto", Arial, Helvetica, sans-serif
+    /* font-family: "Roboto", Arial, Helvetica, sans-serif; */
 }
 
 .logo {
@@ -39,21 +38,26 @@ h1 {
 } 
 
 /* Small devices (landscape phones, 544px and up) */
-@media (min-width: 544px) {  
+@media (min-width: 544px) {
   h1 {font-size: 2.5rem;} 
   .logo {width: 6em; height: 6em;}
+  .nav-item {margin-right: 1em;}
 }
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
   h1 {font-size: 3rem;}
   .logo {width: 6.5em; height: 6.5em;}
+  .navbar {padding-left: 2em}
+  .nav-item {margin-right: 0.5em;}
 }
  
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
   h1 {font-size: 3.5rem;} 
   .logo {width: 7em; height: 7em;}
+  .navbar {padding-left: 3em}
+  .nav-item {margin-right: 1em;}
 }
 
 .event-title, .news-title {
@@ -67,6 +71,10 @@ h1 {
     max-height: 10em;
 }
 
+.list-group-item {
+    padding: 0;
+}
+
 .card {
     background-color: #ecedee;
 }
@@ -76,8 +84,8 @@ h1 {
 }
 
 .news-img {
-    width: 6em; 
-    height: 6em;
+    width: 5.5em; 
+    height: 5.5em;
     object-fit: cover;
     margin-right: 3%;
 }
@@ -116,8 +124,15 @@ h1 {
     background-color: #C80000;
 }
 
+.card:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.card:hover .card-title, .card:hover .news-title {
+    text-decoration: underline;
+}
+
 .more-news:hover, .more-events:hover {
     color: white;
-    text-decoration: underline;
-    cursor: pointer;
 }
