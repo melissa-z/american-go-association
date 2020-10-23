@@ -26,6 +26,11 @@
         url('fonts/roboto-v20-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
 .top-pane {
     background-image: url('images/GoBoard.png');
     background-size: cover;
@@ -55,8 +60,8 @@
     background-color: #C80000;
   }
 
-body {
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+.form-control-sm {
+    font-size: 0.7rem;
 }
 
 .logo {
@@ -82,10 +87,6 @@ h1 {
 
 .event-body {
     padding: 1.25rem 0.25rem 1.25rem 0.25rem;
-}
-
-.news-card {
-    height: 6em;
 }
 
 .news-body {
@@ -114,13 +115,13 @@ h1 {
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
-  h1 {font-size: 3rem;}
   .logo {width: 3.5em; height: 3.5em;}
   .navbar {padding-left: 2em}
   .nav-item {margin-right: 0.5em;}
   .news-img {width: 4em; height: 4em;}
   .news-title {font-size: 0.8rem}
   .news-body {padding: 1.25rem;}
+  .navbar-expand-sm .navbar-nav .nav-link {padding-left: 0.2rem; padding-right: 0.2rem; font-size: 0.8rem}
 }
  
 /* Large devices (desktops, 992px and up) */
@@ -135,6 +136,7 @@ h1 {
   .news-title {font-size: 0.9rem}
   .event-img {max-height: 11em;}
   .event-body {padding: 1.25rem;}
+  .navbar-expand-sm .navbar-nav .nav-link {padding-left: 1.5rem; padding-right: 1rem; font-size: 1rem}
 }
 
 .event-title, .news-title {
