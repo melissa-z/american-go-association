@@ -27,7 +27,7 @@
 }
 
 .top-pane {
-    background-image: url('images/GoBoard2.png');
+    background-image: url('images/GoBoard.png');
     background-size: cover;
 }
 
@@ -175,7 +175,7 @@ h1 {
     height: 2.75em;
     padding: 0.5rem;
     color: white;
-    background-color: rgba(200, 0, 0, 0.8);
+    background-color: #C80000
 }
 
 .card:hover {
@@ -187,7 +187,7 @@ h1 {
     text-decoration: underline;
 }
 
-.more-news:hover, .more-events:hover {
+.more-news-button:hover, .more-events-button:hover {
     color: white;
-    background-color: #C80000
+    background-color: rgba(200, 0, 0, 0.7);
 }
